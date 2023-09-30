@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    color: azure;
+}
+.container-fluid {
+    background-image: url("https://img.freepik.com/free-photo/closeup-shot-thermometer-beach-sand_181624-12367.jpg?w=900&t=st=1694239151~exp=1694239751~hmac=2e59a83fb3c5dd8b7a60a5a73a9d7c30283eae7a3fd0afce0a5da8ca93f61899");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+.temp-container{
+    border-radius: 10px;
+    background-color: black;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-color: red blue red blue;
+    border-style: solid solid solid solid;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tempe-head {
+    background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family: Roboto;
+    padding: 10px;
+}
+.temp-container label{
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Sans-Serif;
+}
+.temp-container input{
+    width: 100%;
+}
+.first-cont{
+    margin-bottom: 40px;
+}
+.seco-cont{
+    margin-bottom: 60px;
+}
+.Third-cont{
+    margin-bottom: 60px;
+    
+}
+.convert-btn:hover{
+    background-color: transparent;
+    transition: .5s;
+}
